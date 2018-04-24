@@ -1,7 +1,5 @@
 'use strict';
 
-const Instana = require('instana-nodejs-sensor');
-
 // Core Node.js modules
 const Fs = require('fs');
 const { homedir } = require('os');
