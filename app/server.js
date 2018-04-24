@@ -38,10 +38,6 @@ const {
   NAMESPACE = 'instances'
 } = process.env;
 
-if (NODE_ENV === 'production') {
-  Instana();
-}
-
 const adminPublicKey = Fs.readFileSync(SDC_KEY_PATH + '.pub', 'utf8');
 
 const server = Hapi.server({
